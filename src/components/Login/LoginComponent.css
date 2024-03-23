@@ -1,0 +1,24 @@
+
+input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  .main-bg{
+    background-color: #8a2be2;
+  }
+  .main-bg:hover{
+    background-color: #8a2be2 !important;
+  }
+  .backgroundlogin{
+    background: url(../../assets/images/loginback.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+  }
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+
+  

@@ -1,0 +1,79 @@
+
+.booking-table {
+    width: 75vw;
+    border-collapse: collapse;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .parentTable{
+    display: flex;
+    justify-content: center;
+  }
+  .booking-table th {
+    background-color: #8a2be2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+  }
+  .deleteIcon{
+    cursor: pointer;
+    width: 20px ;
+  }
+  .updateIcon{
+    cursor: pointer;
+    width: 20px ;
+  }
+  .booking-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .booking-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .booking-table tbody tr:hover {
+    background-color: #bb98da;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+
+
+  .update-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .update-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-form button:hover {
+    background-color: #0056b3;
+  }
+  

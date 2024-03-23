@@ -1,0 +1,86 @@
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: blueviolet;
+}
+.imgenter {
+  width: 36px;
+  cursor: pointer;
+}
+.logoimg {
+  width: 40px !important;
+}
+.textlogin {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.textloginenter {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+.restoransection {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.orderbtn {
+  width: 135px;
+  background-color: #8a2be2;
+  border: none;
+}
+.orderbtn:hover {
+  background-color: #8a2be2;
+}
+.cardsize {
+  margin-top: 100px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imgparent {
+  overflow: hidden;
+}
+.imgparent img {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.4);
+  transform-origin: 0 0;
+}
+
+.cardsize:hover img {
+  transform: scale(1.25) translateY(-10%);
+}
+.input {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #8a2be2;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .textlogin {
+    font-size: 16px !important;
+  }
+  .logoimg {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  h2 {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .textloginenter {
+    display: none;
+  }
+}
